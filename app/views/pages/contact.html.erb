@@ -1,1 +1,13 @@
 <h1>Contact us</h1>
+
+<ul>
+<% @members.each do |member| %>
+  <li><%= member.upcase %></li>
+<% end %>
+</ul>
+
+<%# <ul>
+  <li>MICHEL</li>
+  <li>Jean-Pierre</li>
+  <li>Gilles</li>
+</ul> %>
